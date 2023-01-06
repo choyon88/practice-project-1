@@ -1,247 +1,241 @@
 /* universal css part */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* heading design  */
-.heading{
-    height: 100vh;
-    width: 100%;
-    background-image: url("./images/donation1.jpg");
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    mix-blend-mode: multiply;
-    
+.heading {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/donation1.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: multiply;
 }
-.heading-content{
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-   margin: auto;
-   height: 100vh;
-   align-items: center;
-   justify-content: center;
+.heading-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
-.heading-tittle{
-    color: white;
-    font-size: 50px;
-    text-align: center;
+.heading-tittle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
 }
-.heading-discription{
-    font-size: 18px;
-    color: rgb(175, 170, 170);
-    margin: 15px 0;
+.heading-discription {
+  font-size: 18px;
+  color: rgb(175, 170, 170);
+  margin: 15px 0;
 }
-.buttons{
-    font-size: 20px;
-    padding: 10px 15px;
-    background-color: #df4141;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    
+.buttons {
+  font-size: 20px;
+  padding: 10px 15px;
+  background-color: #df4141;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 /* donate Today page design */
-.donates{
-    width: 100%;
-    height: 80vh;
-    margin-top: 80px;
+.donates {
+  width: 100%;
+  height: 80vh;
+  margin-top: 80px;
 }
-.donate-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 300px;
-    
+.donate-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 300px;
 }
-.donate-title{
-    font-size: 45px;
-    font-weight: 700;
+.donate-title {
+  font-size: 45px;
+  font-weight: 700;
 }
-.donate-subtitle{
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(175, 170, 170);
-    margin: 20px 0 70px;
-    
+.donate-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(175, 170, 170);
+  margin: 20px 0 70px;
 }
-.money-container{
-    margin: 0 300px;
-    display: flex;
-    justify-content: space-around;
+.money-container {
+  margin: 0 300px;
+  display: flex;
+  justify-content: space-around;
 }
-.money-amount{
-    font-size: 30px;
-    color: rgb(175, 170, 170);
-    font-weight: 700;
-    padding: 20px 10px;
-    border: 2px solid white;
+.money-amount {
+  font-size: 30px;
+  color: rgb(175, 170, 170);
+  font-weight: 700;
+  padding: 20px 10px;
+  border: 2px solid white;
 }
-.money-amount:hover{
-border-color: rgb(247, 66, 66);
-background: #fdefef;
-color: rgb(247, 66, 66);
+.money-amount:hover {
+  border-color: rgb(247, 66, 66);
+  background: #fdefef;
+  color: rgb(247, 66, 66);
 }
-.others{
-   margin: 100px auto 0;
-   text-align: center;
+.others {
+  margin: 100px auto 0;
+  text-align: center;
 }
 
-.other-amount{
-    text-align: center;
-    color: rgb(175, 170, 170);
+.other-amount {
+  text-align: center;
+  color: rgb(175, 170, 170);
 }
-hr{
-    width: 600px;
-    margin: 10px auto 30px;
-    color: rgb(175, 170, 170);
+hr {
+  width: 600px;
+  margin: 10px auto 30px;
+  color: rgb(175, 170, 170);
 }
 /* donate our plan section design  */
-.donating-plans{
-    margin-top: 100px;
-    height: 80vh;
-    width: 100%;
+.donating-plans {
+  margin-top: 100px;
+  height: 80vh;
+  width: 100%;
 }
-.donate-plan{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.donate-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.donate-plan-title{
-    font-size: 45px;
-    font-weight: 700;
+.donate-plan-title {
+  font-size: 45px;
+  font-weight: 700;
 }
-.donate-sub-title{
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(175, 170, 170);
-    margin: 20px 300px 80px;
-  
+.donate-sub-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(175, 170, 170);
+  margin: 20px 300px 80px;
 }
-.donate-cards{
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    margin: 0 200px;
+.donate-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0 200px;
 }
-.donate-card-1{
-    background-color: rgb(212, 230, 247);
-    height: 275px;
-    border-radius: 15px;
+.donate-card-1 {
+  background-color: rgb(212, 230, 247);
+  height: 275px;
+  border-radius: 15px;
 }
-.donate-card-2{
-    background-color: rgb(252, 159, 244);
-    height: 275px;
-    border-radius: 15px;
+.donate-card-2 {
+  background-color: rgb(252, 159, 244);
+  height: 275px;
+  border-radius: 15px;
 }
-.donate-card-3{
-    background-color: rgb(235, 150, 221);
-    height: 275px;
-    border-radius: 15px;}
-.card-image{
-    text-align: center;
+.donate-card-3 {
+  background-color: rgb(235, 150, 221);
+  height: 275px;
+  border-radius: 15px;
 }
-.card-image img{
-    margin-top: 25px;
+.card-image {
+  text-align: center;
 }
-.card-title{
-    font-size: 25px;
-    font-weight: 600;
-    margin: 15px 0 15px;
-    text-align: center;
+.card-image img {
+  margin-top: 25px;
 }
-.card-description{
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(73, 72, 72);
-    padding: 10px;
+.card-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 15px 0 15px;
+  text-align: center;
+}
+.card-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(73, 72, 72);
+  padding: 10px;
 }
 /* contribute section design  */
-.contributes{
-    height: 100vh;
-    width: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+.contributes {
+  height: 100vh;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-.contributs-1{
-    display: flex;
-    gap: 100px;
-    justify-content: space-between;
-    margin: 0 200px 100px;
+.contributs-1 {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  margin: 0 200px 100px;
 }
 
-.img-info img{
-    width: 400px;
-    height: 330px;
+.img-info img {
+  width: 400px;
+  height: 330px;
 }
-.contribute-title{
-    margin-top: 20px;
-    font-size: 45px;
-    font-weight: 700;
+.contribute-title {
+  margin-top: 20px;
+  font-size: 45px;
+  font-weight: 700;
 }
-.contribute-description{
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(175, 170, 170);
-    margin: 10px 0;
+.contribute-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(175, 170, 170);
+  margin: 10px 0;
 }
 /* contact us start */
-.contact-us{
-    width: 100%;
-    height: 70vh;
-    margin-top: 250px;
+.contact-us {
+  width: 100%;
+  height: 70vh;
+  margin-top: 250px;
 }
-.contact{
-    margin: 0 300px;
-    text-align: center;
+.contact {
+  margin: 0 300px;
+  text-align: center;
 }
-.contact-title{
-    font-size: 45px;
-    font-weight: 700;
+.contact-title {
+  font-size: 45px;
+  font-weight: 700;
 }
-.contact-description{
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(175, 170, 170);
-    margin: 20px 0 50px;
+.contact-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(175, 170, 170);
+  margin: 20px 0 50px;
 }
-.form{
-    background-color: #f1c8c8;
-    margin: 0 300px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.form {
+  background-color: #f1c8c8;
+  margin: 0 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.email input{
-    padding: 13px;
-    border: none;
-    background-color: rgb(175, 170, 170);
-    border-radius: 5px;
+.email input {
+  padding: 13px;
+  border: none;
+  background-color: rgb(175, 170, 170);
+  border-radius: 5px;
 }
 /* footer section start */
-footer{
-    width: 100%;
-    height: 30vh;
-    background-color: black;
+footer {
+  width: 100%;
+  height: 30vh;
+  background-color: black;
 }
-.content-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.content-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.footer-title{
-    color: #df4141;
-    margin-top: 80px;
-    font-family: cursive;
+.footer-title {
+  color: #df4141;
+  margin-top: 80px;
+  font-family: cursive;
 }
-.footer-description{
-    color: white;
+.footer-description {
+  color: white;
 }
